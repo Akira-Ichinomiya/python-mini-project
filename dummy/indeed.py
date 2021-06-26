@@ -47,5 +47,5 @@ def get_jobs(last_page):
 
 def show_jobs():
     last_page = get_last_page()
-    jobs = get_jobs(2)
+    jobs = get_jobs(last_page)
     return jobs
